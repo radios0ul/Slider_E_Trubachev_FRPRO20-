@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+   <title>Slider</title>
+</head>
+
+<body>
+
+   <div class="main__container">
+      <section class="projects">
+         <div class="projects__container">
+            <div class="projects__empty"></div>
+            <div class="projects__legend">
+               <div class="legend-item"><button class="legend-button leg-admiral">Rostov-on-Don, Admiral</button></div>
+               <div class="legend-item"><button class="legend-button leg-sochi">Sochi Thieves</button></div>
+               <div class="legend-item"><button class="legend-button leg-patriot">Rostov-on-Don Patriotic</button></div>
+               <div class="underline-admiral"></div>
+               <div class="underline-sochi"></div>
+               <div class="underline-patriot"></div>
+            </div>
+            <div class="projects__info">
+               <h2>Completed <br> projects</h2>
+               <p class="projects__info-txt">
+                  Only a small part of the work performed by our company is presented on the site. For 14 years on in
+                  the construction
+                  market we have made happy more than 1000 families
+               </p>
+               <div class="projects__info-block">
+                  <div class="projects__city">
+                     <h4>city:</h4>
+                     <p id="city-text">Rostov-on-Don
+                        LCD admiral</p>
+
+                  </div>
+                  <div class="projects__area">
+                     <h4>apartment area:</h4>
+                     <p id="area-text">81 m2</p>
+
+                  </div>
+                  <div class="projects__time">
+                     <h4>Repair time:</h4>
+                     <p id="time-text">3.5 months</p>
+                  </div>
+
+                  <div class="projects__cost">
+                     <h4>Repair Cost:</h4>
+                     <p>Upon request</p>
+                  </div>
+               </div>
+
+               <div class="projects__info-buttons">
+                  <button class="arrow arrow-prev"><svg width="42" height="14" viewBox="0 0 42 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z"
+                           fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z"
+                           fill="white" />
+                     </svg>
+                  </button>
+                  <div class="pointers">
+                     <button class="pointer-admiral"></button>
+                     <button class="pointer-sochi"></button>
+                     <button class="pointer-patriot"></button>
+                  </div>
+                  <button class="arrow arrow-next"><svg width="42" height="14" viewBox="0 0 42 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M35.0451 0L41.6831 6.63804L35.0451 13.2761L34.0975 12.3285L39.788 6.63804L34.0975 0.947567L35.0451 0Z"
+                           fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M40.7356 7.30784L0.227569 7.30784L0.22757 5.96777L40.7356 5.96778L40.7356 7.30784Z"
+                           fill="white" />
+                     </svg></button>
+               </div>
+            </div>
+            <div class="projects__pictures">
+               <div class="slider">
+                  <div class="slider-line">
+                     <img src="img/png/admiral.png" alt="LCD admiral interior">
+                     <img src="img/png/thieves.png" alt="sochi interior">
+                     <img src="img/png/patriotic.png" alt="LCD patriotic interior">
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+   </div>
+
+
+   <script src="js/script.js"> </script>
+</body>
+
+</html>

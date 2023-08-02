@@ -1,0 +1,244 @@
+/* ---ОБНУЛЕНИЕ--- */
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-style: 100%;
+   line-height: 1;
+   font-style: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-style: inherit;
+   font-weight: 400;
+   font-family: Yeseva One, serif;
+}
+
+/* ---BODY--- */
+
+body {
+   font-family: nunito sans, Arial, Helvetica, sans-serif;
+}
+
+
+/* ------PROJECTS------------- */
+
+.projects {
+   height: 1074px;
+   background-color: #131313;
+}
+
+.projects__container {
+   display: grid;
+   max-width: 1171px;
+   margin: 0 auto;
+   grid-template-columns: 492px 679px;
+   grid-template-rows: 70px 482px;
+   padding-top: 89px;
+}
+
+.projects__legend {
+   display: grid;
+   grid-template-columns: 256px 169px 1fr;
+   grid-template-rows: repeat(2, 16px);
+   align-items: center;
+}
+
+h2 {
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 37px;
+   text-transform: uppercase;
+   color: #E3B873;
+}
+
+h4 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   color: #E3B873;
+}
+
+button {
+   background: transparent;
+}
+
+.projects__info-txt {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 27px;
+   margin-top: 34px;
+   max-width: 442px;
+   color: #FFFFFF;
+}
+
+.projects__city {
+   width: 100px;
+   height: 80px;
+}
+
+.projects__info p {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 27px;
+   color: #FFFFFF;
+}
+
+.legend-item button {
+   font-family: 'Yeseva One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.3);
+}
+
+.underline-admiral {
+   width: 194px;
+   height: 1px;
+}
+
+.underline-sochi {
+   width: 109px;
+   height: 1px;
+}
+
+.underline-patriot {
+   width: 197px;
+   height: 1px;
+}
+
+.projects__info-block {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   margin-top: 8px;
+}
+
+.projects__info-block div {
+   margin-top: 32px;
+}
+
+.projects__info-buttons {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   margin-top: 45px;
+}
+
+.projects__info-buttons svg {
+   margin-top: 3px;
+}
+
+.pointers {
+   display: flex;
+   width: 64px;
+   justify-content: space-between;
+}
+
+.pointer-admiral {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.3);
+}
+
+.pointer-sochi,
+.pointer-patriot {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.3);
+}
+
+.slider {
+   width: 679px;
+   height: 483px;
+   overflow: hidden;
+}
+
+.slider-line {
+   display: flex;
+   width: 2037px;
+   height: 483px;
+   position: relative;
+   left: 0;
+   transition: ease 0.7s;
+}
